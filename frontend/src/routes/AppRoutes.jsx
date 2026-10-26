@@ -8,6 +8,7 @@ import Signup from "../pages/Signup";
 import Products from "../pages/Products";
 import ProductDetails from "../pages/ProductDetails";
 import Cart from "../pages/Cart";
+import Wishlist from "../pages/Wishlist";
 import NotFound from "../pages/NotFound";
 
 export default function AppRoutes() {
@@ -18,6 +19,7 @@ export default function AppRoutes() {
         <Route path="/products" element={<Products />} />
         <Route path="/products/:id" element={<ProductDetails />} />
         <Route path="/cart" element={<Cart />} />
+        <Route path="/wishlist" element={<Wishlist />} />
       </Route>
 
       <Route path="/login" element={<Login />} />

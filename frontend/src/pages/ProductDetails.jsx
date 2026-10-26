@@ -25,6 +25,7 @@ function ProductDetails() {
                 <p>5 stars: * * * * *</p>
                 <p>Customers love the timeless design of this watch.</p>
             </div>
+
         </>
         
     );

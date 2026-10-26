@@ -368,4 +368,29 @@ input {
   .hero {
     padding: 65px 6%;
   }
+
+  .category-list {
+    grid-template-columns: 1fr;
+  }
+
+  .products-page {
+    padding: 40px 5%;
+  }
+
+  .products-header {
+    margin-bottom: 36px;
+  }
+
+  .products-section-header h2 {
+    font-size: 20px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .product-image-wrapper {
+    height: 300px;
+  }
 }

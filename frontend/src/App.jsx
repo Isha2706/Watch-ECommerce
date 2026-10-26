@@ -1,3 +1,4 @@
+// Authentication pages setup
 
 import AppRoutes from "./routes/AppRoutes";
 

@@ -25,15 +25,14 @@ function ProductDetails() {
                 </>
                 
             </div>
-
-            
-        </section>
-
             <div className="product-reviews">
                 <h2>Customer Reviews</h2>
                 <p>5 stars: * * * * *</p>
                 <p>Customers love the timeless design of this watch.</p>
             </div>
+
+            
+        </section>
 
         </>
         

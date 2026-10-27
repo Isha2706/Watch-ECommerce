@@ -5,7 +5,7 @@ function ProductDetails() {
 
     return (
         <>
-        <section className="product-details">
+        <section className="products-page">
             <p className="eyebrow">WATCH DETAILS</p>
             <h1>Watch #{id}</h1>
             <p>Product information and pricing will appear here.</p>
@@ -13,11 +13,20 @@ function ProductDetails() {
             <div className="product-info">
                 <h2>Classic Collection</h2>
                 <p>Elegant design for every occasion.</p>
-                <p className="price">Price: ₹12,999</p>
-                <button type="button">Add to Wishlist</button>
+                <p className="product-price">Price: ₹12,999</p>
+                <>
+                <button className="button" type="button">
+                    Add to Wishlist
+                </button>
+                
+                <Link className="button" to="/cart" type="button">
+                Add to Cart
+            </Link>
+                </>
+                
             </div>
 
-            <Link to="/products">Back to Products</Link>
+            
         </section>
         </>
         

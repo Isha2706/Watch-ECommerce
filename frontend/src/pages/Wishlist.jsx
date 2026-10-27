@@ -1,10 +1,10 @@
 
 function Wishlist() {
   return (
-    <div>
+    <>
       <h1>Wishlist Page</h1>
       <p>This is the Wishlist page.</p>
-    </div>
+    </>
   );
 }
 

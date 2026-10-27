@@ -1,5 +1,5 @@
-// Authentication pages setup
 // Frontend routing setup
+// Authentication pages setup
 
 import AppRoutes from "./routes/AppRoutes";
 
